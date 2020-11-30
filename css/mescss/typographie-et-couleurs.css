@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 body>footer{
     background-color: black;
 }
@@ -28,4 +31,26 @@ body>footer>p>a{
 .jaune{
     color: #FFE645;
     display: inline;
+}
+h1{
+    font-family: "Montserrat ExtraBold", sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+h2{
+    font-family: "Montserrat ExtraBold", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+h3{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+p.chapeau{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 2rem;
+    text-align: center;
 }
