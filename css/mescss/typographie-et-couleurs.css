@@ -37,7 +37,7 @@ h1{
     font-size: 4rem;
     text-align: center;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 h2{
     font-family: "Montserrat ExtraBold", sans-serif;
@@ -53,4 +53,9 @@ p.chapeau{
     font-family: "Roboto Medium", sans-serif;
     font-size: 2rem;
     text-align: center;
+}
+body p{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.8rem;
+    text-justify: none;
 }
