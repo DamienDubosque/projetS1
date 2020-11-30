@@ -1,0 +1,31 @@
+body>footer{
+    background-color: black;
+}
+body>footer p{
+    color: white;
+}
+body>footer>p>a{
+    color: #FFE645;
+    text-decoration: none;
+}
+.container {
+    display: inline-block;
+    position: relative;
+}
+.container .text {
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+}
+.jaune{
+    color: #FFE645;
+    display: inline;
+}
