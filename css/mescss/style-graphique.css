@@ -2,3 +2,19 @@ body>main img{
     display: block;
     margin: 0 auto;
 }
+.image {
+    position: absolute;
+    top: 10px;
+    width: 30%;
+    left: 10px;
+}
+body.different{
+    margin-top: 110px;
+}
+body>header{
+    background-color: #141975;
+}
+body.different{
+    background-color: #141975;
+    color: white;
+}
