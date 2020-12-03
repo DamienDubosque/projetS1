@@ -76,3 +76,9 @@ body a{
     font-family: "Roboto Medium",sans-serif;
     font-size: 2rem;
 }
+.figure p{
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #CFCFCF;
+}
