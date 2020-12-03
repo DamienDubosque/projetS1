@@ -66,3 +66,13 @@ body>footer p{
 body a{
     text-decoration: none;
 }
+.autres-projets>ul li{
+    font-family: "Roboto Light",sans-serif;
+    font-size: 2rem;
+    list-style: none;
+    margin-top: 2rem;
+}
+.autres-projets>ul li.jaune{
+    font-family: "Roboto Medium",sans-serif;
+    font-size: 2rem;
+}
