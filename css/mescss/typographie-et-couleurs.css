@@ -64,7 +64,11 @@ body p{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.8rem;
 }
-body p:last-of-type,.galerie{
+body.accueil>main p:first-of-type{
+    margin-top: 0;
+    padding-top: 1rem;
+}
+body p:last-of-type,.galerie,body.accueil ul{
     margin-bottom: 0;
     padding-bottom: 3rem;
 }
@@ -75,6 +79,7 @@ body>footer p{
 }
 body>footer p:first-of-type{
     margin-top: 0;
+    padding-top: 0.5rem;
 }
 body a{
     text-decoration: none;
