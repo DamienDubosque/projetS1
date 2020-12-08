@@ -68,9 +68,12 @@ body.accueil>main p:first-of-type{
     margin-top: 0;
     padding-top: 1rem;
 }
-body p:last-of-type,.galerie,body.accueil ul{
+body p:last-of-type,.galerie,body.accueil ul,body.accueil>main>div:last-of-type{
     margin-bottom: 0;
     padding-bottom: 3rem;
+}
+body.accueil>main>div:last-of-type>p.bouton:last-of-type{
+    margin-bottom: 0;
 }
 body>footer p{
     font-family: "Roboto Light", sans-serif;

@@ -32,3 +32,16 @@ body>footer>img, body.different>footer>img, body.accueil>footer>img{
     bottom: 0.5rem;
     right: 0.5rem;
 }
+body.accueil p.bouton{
+    text-decoration: none;
+    background-color: #29B9D9;
+    width: 15rem;
+    height: 0;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding-bottom: 3.2rem;
+    padding-top: 1rem;
+}
+body.accueil p.bouton>a{
+    color: white;
+}
