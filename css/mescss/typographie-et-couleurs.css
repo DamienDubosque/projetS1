@@ -39,6 +39,10 @@ h1{
     text-decoration: none;
     color: white;
 }
+body h1{
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
 h2{
     font-family: "Montserrat ExtraBold", sans-serif;
     font-size: 3rem;
@@ -53,15 +57,24 @@ p.chapeau{
     font-family: "Roboto Medium", sans-serif;
     font-size: 2rem;
     text-align: center;
+    margin-top: 0;
+    padding-top: 1rem;
 }
 body p{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.8rem;
 }
+body p:last-of-type,.galerie{
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+}
 body>footer p{
     font-family: "Roboto Light", sans-serif;
     font-size: 1.5rem;
     text-justify: none;
+}
+body>footer p:first-of-type{
+    margin-top: 0;
 }
 body a{
     text-decoration: none;
