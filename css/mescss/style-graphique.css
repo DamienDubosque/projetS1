@@ -24,3 +24,11 @@ body>main{
     padding-left: 3rem;
     padding-right: 3rem;
 }
+body>footer, body.different>footer, body.accueil>footer{
+    position: relative;
+}
+body>footer>img, body.different>footer>img, body.accueil>footer>img{
+    position: absolute;
+    bottom: 0.5rem;
+    right: 0.5rem;
+}
