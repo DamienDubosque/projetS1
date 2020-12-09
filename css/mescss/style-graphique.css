@@ -33,8 +33,8 @@ body>footer, body.different>footer, body.accueil>footer{
 }
 body>footer>img, body.different>footer>img, body.accueil>footer>img{
     position: absolute;
-    bottom: 0.5rem;
-    right: 0.5rem;
+    bottom: .5rem;
+    right: 1.5rem;
 }
 body.accueil p.bouton{
     text-decoration: none;
@@ -152,7 +152,4 @@ body>main>article#livre img{
     float: left;
     bottom: 1.8rem;
     right: 25.5rem;
-}
-body.different>footer.different{
-    margin-top: 46.3rem;
 }

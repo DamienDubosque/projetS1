@@ -68,7 +68,7 @@ body.accueil>main p:first-of-type{
     margin-top: 0;
     padding-top: 1rem;
 }
-body p:last-of-type,.galerie,body.accueil ul,body.accueil>main>div:last-of-type{
+body p:last-of-type,.galerie,body.accueil ul,body.accueil>main>div:last-of-type, body.different p:last-of-type {
     margin-bottom: 0;
     padding-bottom: 3rem;
 }
@@ -80,9 +80,9 @@ body>footer p{
     font-size: 1.5rem;
     text-justify: none;
 }
-body>footer p:first-of-type{
+body>footer p:first-of-type, body.different>footer p:first-of-type{
     margin-top: 0;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }
 body a{
     text-decoration: none;
@@ -104,78 +104,76 @@ body a{
     color: #CFCFCF;
 }
 body.different>p.nom {
+    text-decoration: none;
     background-color: aliceblue;
-    z-index: 1;
-    position: absolute;
+    width: 7rem;
+    height: 0;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
-    /* margin: 0 auto; */
-    left: 3rem;
-    right: 0;
-    top: 51%;
-    color: #0B0E40;
-    width: 30%;
-    height: 4rem;
+    padding-bottom: 3.2rem;
+    padding-top: 1rem;
     border-radius: 1rem;
-    padding: 0;
+    color: #0b0e40;
 }
 body.different>p.prenom {
+    text-decoration: none;
     background-color: aliceblue;
-    z-index: 1;
-    position: absolute;
+    width: 7rem;
+    height: 0;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
-    /* margin: 0 auto; */
-    left: 3rem;
-    top: 58%;
-    color: #0B0E40;
-    width: 30%;
-    height: 4rem;
+    padding-bottom: 3.2rem;
+    padding-top: 1rem;
     border-radius: 1rem;
-    padding: 0;
+    color: #0b0e40;
 }
 body.different>p.mail {
+    text-decoration: none;
     background-color: aliceblue;
-    z-index: 1;
-    position: absolute;
+    width: 23rem;
+    height: 0;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
-    /* margin: 0 auto; */
-    left: 3rem;
-    top: 65%;
-    color: #0B0E40;
-    width: 65%;
-    height: 4rem;
+    padding-bottom: 3.2rem;
+    padding-top: 1rem;
     border-radius: 1rem;
-    padding: 0;
+    color: #0b0e40;
 }
 body.different>p.message {
+    text-decoration: none;
     background-color: aliceblue;
-    z-index: 1;
-    position: absolute;
+    width: 26rem;
+    height: 150px;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
-    /* margin: 0 auto; */
-    left: 3rem;
-    top: 72%;
-    color: #0B0E40;
-    width: 84%;
-    height: 20rem;
+    padding-bottom: 0;
+    padding-top: 10rem;
     border-radius: 1rem;
-    padding: 0;
+    color: #0b0e40;
 }
-body.different>p.envoyer{
+body.different>p.envoyer {
+    text-decoration: none;
     background-color: aliceblue;
-    z-index: 1;
-    position: absolute;
+    width: 7rem;
+    height: 0;
+    margin-bottom: 3rem;
+    margin-left: 22rem;
     text-align: center;
-    font-family: "Roboto Light", sans-serif;
-    /* margin: 0 auto; */
-    right: 3rem;
-    top: 99%;
-    color: #0B0E40;
-    width: 30%;
-    height: 4rem;
+    padding-bottom: 3.2rem;
+    padding-top: 1rem;
     border-radius: 1rem;
-    padding: 0;
+    color: #0b0e40;
+}
+body>footer .contact, body.accueil>footer.different .contact, body.different>footer .contact{
+    padding-left: 1rem;
+}
+body>footer p, body.accueil>footer.different p, body.different>footer p{
+    padding: 0 1.5rem;
+}
+body>footer .contact>a:first-of-type, body.accueil>footer.different .contact>a:first-of-type, body.different>footer .contact>a:first-of-type{
+    padding-right: 1rem;
 }
