@@ -18,6 +18,10 @@ body.different{
     background-color: #141975;
     color: white;
 }
+body.different p{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 body>main{
     background-color: #0B0E40;
     color: white;
@@ -148,4 +152,7 @@ body>main>article#livre img{
     float: left;
     bottom: 1.8rem;
     right: 25.5rem;
+}
+body.different>footer.different{
+    margin-top: 46.3rem;
 }
