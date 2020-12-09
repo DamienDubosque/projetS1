@@ -45,3 +45,107 @@ body.accueil p.bouton{
 body.accueil p.bouton>a{
     color: white;
 }
+body>main>article#livre img{
+    width: 50%;
+}
+
+/* Logo autre projet */
+
+.autres-projets>ul{
+    padding-left: 2rem;
+}
+.autres-projets>ul li{
+    padding-bottom: 4rem;
+}
+.autres-projets>ul li img{
+    padding-right: 1rem
+}
+
+.autres-projets>ul> li:nth-of-type(1)>img{
+    display: inline-block;
+    width: 12rem;
+    float: left;
+}
+.autres-projets>ul> li:nth-of-type(2){
+    position: relative;
+    margin-left: 13rem;
+}
+.autres-projets>ul> li:nth-of-type(2)>img{
+    position: absolute;
+    display: inline-block;
+    width: 120px;
+    float: left;
+    bottom: 2rem;
+    right: 23rem;
+}
+.autres-projets>ul> li:nth-of-type(3)>img{
+    width: 12rem;
+    float: left;
+    margin-top: 1.5rem;
+}
+.autres-projets>ul> li:nth-of-type(4)>img {
+    width: 12rem;
+    height: auto;
+    float: left;
+}
+.autres-projets>ul> li:nth-of-type(5){
+    position: relative;
+    margin-left: 13rem;
+}
+.autres-projets>ul> li:nth-of-type(5)>img{
+    position: absolute;
+    display: inline-block;
+    width: 13rem;
+    float: left;
+    bottom: 1rem;
+    right: 22.5rem;
+}
+
+.autres-projets>ul> li:nth-of-type(6){
+    position: relative;
+    margin-left: 13rem;
+}
+.autres-projets>ul> li:nth-of-type(6)>img {
+    position: absolute;
+    display: inline-block;
+    width: 6rem;
+    float: left;
+    bottom: 3rem;
+    right: 26rem;
+}
+.autres-projets>ul> li:nth-of-type(7){
+    position: relative;
+    margin-left: 13rem;
+}
+.autres-projets>ul> li:nth-of-type(7)>img {
+    position: absolute;
+    display: inline-block;
+    width: 4rem;
+    float: left;
+    bottom: 4rem;
+    right: 27rem;
+}
+.autres-projets>ul> li:nth-of-type(8){
+    position: relative;
+    margin-left: 13rem;
+}
+.autres-projets>ul> li:nth-of-type(8)>img {
+    position: absolute;
+    display: inline-block;
+    width: 11rem;
+    float: left;
+    bottom: 1.5rem;
+    right: 23.5rem;
+}
+.autres-projets>ul> li:nth-of-type(9){
+    position: relative;
+    margin-left: 13rem;
+}
+.autres-projets>ul> li:nth-of-type(9)>img {
+    position: absolute;
+    display: inline-block;
+    width: 7rem;
+    float: left;
+    bottom: 1.8rem;
+    right: 25.5rem;
+}
