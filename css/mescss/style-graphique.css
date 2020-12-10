@@ -9,7 +9,7 @@ body>main img{
     left: 10px;
 }
 body.different{
-    margin-top: 110px;
+    margin-top: 13rem;
 }
 body>header{
     background-color: #141975;
@@ -45,6 +45,7 @@ body.accueil p.bouton{
     text-align: center;
     padding-bottom: 3.2rem;
     padding-top: 1rem;
+    border-radius: 1rem;
 }
 body.accueil p.bouton>a{
     color: white;
