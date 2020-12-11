@@ -56,6 +56,27 @@ h3{
     font-family: "Roboto Medium", sans-serif;
     font-size: 2.2rem;
     text-align: center;
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: #111666;
+    margin: 22px -30px;
+    height: 4rem;
+    padding-top: 1.5rem;
+}
+h3.different{
+    font-family: "Roboto Medium", sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    background-color: #111666;
+    margin: 22px -30px;
+    height: 6rem;
+    padding-top: 1rem;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+h3.sans-fond{
+    background-color:#0b0e40;
 }
 p.chapeau{
     font-family: "Roboto Medium", sans-serif;
@@ -63,6 +84,15 @@ p.chapeau{
     text-align: center;
     margin-top: 0;
     padding-top: 1rem;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+body.different>h2{
+    background-color: #0b0e40;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0 AUTO;
+    padding: 1rem;
 }
 body p{
     font-family: "Roboto Light", sans-serif;
@@ -111,70 +141,91 @@ body.different>p>a{
     font-size: 1.2rem;
     color: #CFCFCF;
 }
-body.different>p.nom {
+figcaption{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #CFCFCF;
+    font-family: "Roboto Light", sans-serif;
+}
+.formulaire-contact>p.nom {
     text-decoration: none;
     background-color: aliceblue;
     width: 7rem;
     height: 0;
     margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     text-align: center;
     padding-bottom: 3.2rem;
     padding-top: 1rem;
     border-radius: 1rem;
     color: #0b0e40;
 }
-body.different>p.prenom {
+.formulaire-contact>p.prenom {
     text-decoration: none;
     background-color: aliceblue;
     width: 7rem;
     height: 0;
     margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     text-align: center;
     padding-bottom: 3.2rem;
     padding-top: 1rem;
     border-radius: 1rem;
     color: #0b0e40;
 }
-body.different>p.mail {
+.formulaire-contact>p.mail {
     text-decoration: none;
     background-color: aliceblue;
     width: 23rem;
     height: 0;
     margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     text-align: center;
     padding-bottom: 3.2rem;
     padding-top: 1rem;
     border-radius: 1rem;
     color: #0b0e40;
 }
-body.different>p.message {
+.formulaire-contact>p.message {
     text-decoration: none;
     background-color: aliceblue;
     width: 26rem;
     height: 150px;
     margin-bottom: 3rem;
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     text-align: center;
     padding-bottom: 0;
     padding-top: 10rem;
     border-radius: 1rem;
     color: #0b0e40;
 }
-body.different>p.envoyer {
+.formulaire-contact>p.envoyer {
     text-decoration: none;
     background-color: aliceblue;
     width: 7rem;
     height: 0;
-    margin-bottom: 3rem;
-    margin-left: 22rem;
+    margin-left: 20.5rem;
     text-align: center;
     padding-bottom: 3.2rem;
     padding-top: 1rem;
     border-radius: 1rem;
     color: #0b0e40;
+}
+.formulaire-contact{
+    background-color: #1151A5;
+    margin: 0 10px 30px 10px;
+    padding: 2rem 0;
+    border-radius: 2rem;
+}
+.formulaire-contact>p:first-of-type{
+    font-family: "Roboto Medium", sans-serif;
+    text-align: center;
+    font-size: 2.2rem;
+    border: 2px solid #FFE645;
+    border-radius: 1rem;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 5rem;
 }
 body>footer .contact, body.accueil>footer.different .contact, body.different>footer .contact{
     padding-left: 1rem;

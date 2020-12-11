@@ -88,10 +88,17 @@ body>main>article#livre img{
     float: left;
     margin-top: 1.5rem;
 }
+.autres-projets>ul> li:nth-of-type(4){
+    position: relative;
+    margin-left: 13rem;
+}
 .autres-projets>ul> li:nth-of-type(4)>img {
-    width: 12rem;
-    height: auto;
+    position: absolute;
+    display: inline-block;
+    width: 120px;
     float: left;
+    bottom: 4rem;
+    right: 23rem;
 }
 .autres-projets>ul> li:nth-of-type(5){
     position: relative;
