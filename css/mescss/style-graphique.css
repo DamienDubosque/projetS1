@@ -66,7 +66,7 @@ body>main>article#livre img{
     padding-right: 1rem
 }
 
-.autres-projets>ul> li:nth-of-type(1)>img{
+.autres-projets>ul> li:nth-of-type(1)>a>img{
     display: inline-block;
     width: 12rem;
     float: left;
@@ -75,7 +75,7 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(2)>img{
+.autres-projets>ul> li:nth-of-type(2)>a>img{
     position: absolute;
     display: inline-block;
     width: 120px;
@@ -83,7 +83,7 @@ body>main>article#livre img{
     bottom: 2rem;
     right: 23rem;
 }
-.autres-projets>ul> li:nth-of-type(3)>img{
+.autres-projets>ul> li:nth-of-type(3)>a>img{
     width: 12rem;
     float: left;
     margin-top: 1.5rem;
@@ -92,7 +92,7 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(4)>img {
+.autres-projets>ul> li:nth-of-type(4)>a>img {
     position: absolute;
     display: inline-block;
     width: 120px;
@@ -104,7 +104,7 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(5)>img{
+.autres-projets>ul> li:nth-of-type(5)>a>img{
     position: absolute;
     display: inline-block;
     width: 13rem;
@@ -117,7 +117,7 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(6)>img {
+.autres-projets>ul> li:nth-of-type(6)>a>img {
     position: absolute;
     display: inline-block;
     width: 6rem;
@@ -129,7 +129,7 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(7)>img {
+.autres-projets>ul> li:nth-of-type(7)>a>img {
     position: absolute;
     display: inline-block;
     width: 4rem;
@@ -141,7 +141,7 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(8)>img {
+.autres-projets>ul> li:nth-of-type(8)>a>img {
     position: absolute;
     display: inline-block;
     width: 11rem;
@@ -153,11 +153,15 @@ body>main>article#livre img{
     position: relative;
     margin-left: 13rem;
 }
-.autres-projets>ul> li:nth-of-type(9)>img {
+.autres-projets>ul> li:nth-of-type(9)>a>img {
     position: absolute;
     display: inline-block;
     width: 7rem;
     float: left;
     bottom: 1.8rem;
     right: 25.5rem;
+}
+.autres-projets a{
+    text-decoration: none;
+    color: white;
 }
