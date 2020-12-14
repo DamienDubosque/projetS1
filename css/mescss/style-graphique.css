@@ -15,7 +15,7 @@ body>header{
     background-color: #141975;
 }
 body.different{
-    background-color: #141975;
+    background-color: #111563;
     color: white;
 }
 body.different p{
@@ -27,6 +27,7 @@ body>main{
     color: white;
     padding-left: 3rem;
     padding-right: 3rem;
+    padding-bottom: 1px;
 }
 body>footer, body.different>footer, body.accueil>footer{
     position: relative;
@@ -164,4 +165,32 @@ body>main>article#livre img{
 .autres-projets a{
     text-decoration: none;
     color: white;
+}
+button{
+    padding: 0 0 4px 0;
+    border-radius: 0.5em;
+    border: 2px solid #DCDCDC;
+    color: #FEFEFE;
+    font-size: 16px;
+    font-family: "Poppins Medium", sans-serif;
+    text-align: center;
+    line-height: 30px;
+    width: 120px;
+    background: #0b0e40;
+    margin-top: 2rem;
+}
+textarea{
+    height: 10rem;
+    width: 305px;
+    border: 2px solid #FFE645;
+    border-radius: 1rem;
+}
+.formulaire-contact li:last-of-type{
+    padding-left: 19rem;
+}
+.retour-haut img{
+    width: 10%;
+    margin-bottom: 2rem;
+    border-radius: 2rem;
+    border: 1px solid #DCDCDC;
 }
