@@ -16,15 +16,16 @@ body>header{
 }
 body.different{
     background-color: #111563;
-    color: white;
+    color: #CFCFCF;
 }
 body.different p{
     padding-left: 3rem;
     padding-right: 3rem;
+    color: #F0F0F0;
 }
 body>main{
     background-color: #0B0E40;
-    color: white;
+    color: #F0F0F0;
     padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1px;
@@ -164,7 +165,7 @@ body>main>article#livre img{
 }
 .autres-projets a{
     text-decoration: none;
-    color: white;
+    color: #F0F0F0;
 }
 button{
     padding: 0 0 4px 0;

@@ -5,7 +5,10 @@ body>footer{
     background-color: black;
 }
 body>footer p{
-    color: white;
+    color: #F0F0F0;
+}
+body p{
+    color: #F0F0F0;
 }
 body>footer>p>a{
     color: #FFE645;
@@ -35,6 +38,7 @@ body>footer>p>a{
 .gras{
     font-family: "Roboto",sans-serif;
     font-weight: bold;
+    color: #CFCFCF;
 }
 h1{
     font-family: "Montserrat ExtraBold", sans-serif;
@@ -46,11 +50,13 @@ h1{
 body h1{
     margin-bottom: 0;
     padding-bottom: 3rem;
+    color: white;
 }
 h2{
     font-family: "Montserrat ExtraBold", sans-serif;
     font-size: 3rem;
     text-align: center;
+    color: white;
 }
 h3{
     font-family: "Roboto Medium", sans-serif;
@@ -60,6 +66,7 @@ h3{
     margin: 22px -30px;
     height: 4rem;
     padding-top: 1.5rem;
+    color: white;
 }
 body.accueil>header.accueil>.container>.text>h3{
     font-family: "Roboto Medium", sans-serif;
@@ -80,6 +87,7 @@ h3.different{
     padding-top: 1rem;
     padding-left: 22px;
     padding-right: 22px;
+    color: #CFCFCF;
 }
 h3.sans-fond{
     background-color:#0b0e40;
@@ -92,6 +100,7 @@ p.chapeau{
     padding-top: 1rem;
     padding-left: 22px;
     padding-right: 22px;
+    color: white;
 }
 body.different>h2{
     background-color: #0b0e40;
@@ -128,7 +137,7 @@ body a{
     text-decoration: none;
 }
 body.different>p>a{
-    color: white;
+    color: #CFCFCF;
     font-weight: bold;
 }
 .autres-projets>ul li{
