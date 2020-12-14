@@ -87,7 +87,7 @@ h3.sans-fond{
 p.chapeau{
     font-family: "Roboto Medium", sans-serif;
     font-size: 2rem;
-    text-align: center;
+    text-align: left;
     margin-top: 0;
     padding-top: 1rem;
     padding-left: 22px;
@@ -248,4 +248,11 @@ body>footer .contact>a:first-of-type, body.accueil>footer.different .contact>a:f
     padding-top: 1rem;
     margin-left: -30px;
     margin-right: -30px;
+}
+p.chapeau>a,article#livre p>a,article#applications-visio p>a, h3>a{
+    text-decoration: underline #FFE645;
+    color: white;
+}
+.formulaire-contact>form>ul>li.bouton>button>a{
+    color: white;
 }
