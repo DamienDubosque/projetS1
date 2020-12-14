@@ -172,7 +172,7 @@ button{
     border: 2px solid #DCDCDC;
     color: #FEFEFE;
     font-size: 16px;
-    font-family: "Poppins Medium", sans-serif;
+    font-family: "Roboto Medium", sans-serif;
     text-align: center;
     line-height: 30px;
     width: 120px;
@@ -193,4 +193,30 @@ textarea{
     margin-bottom: 2rem;
     border-radius: 2rem;
     border: 1px solid #DCDCDC;
+}
+input{
+    height: 35px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 2px solid #FFE645;
+    color: #0b0e40;
+}
+.formulaire-contact li {
+    display: list-item;
+}
+.formulaire-contact ul{
+    list-style-type: none;
+    padding-left: 20px;
+}
+form{
+    margin-top: -20px;
+}
+label{
+    font-family: "Roboto Light", sans-serif;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-top: 2rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
 }
