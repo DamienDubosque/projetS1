@@ -35,6 +35,9 @@ body>footer>p>a{
     color: #FFE645;
     display: inline;
 }
+body.accueil h2{
+    font-size: 2.2rem;
+}
 .gras{
     font-family: "Roboto",sans-serif;
     font-weight: bold;
